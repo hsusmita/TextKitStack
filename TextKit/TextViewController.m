@@ -33,8 +33,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleContainerChanged) name:CONTAINER_COUNT_CHANGED_NOTIFICATION object:nil];
 }
 
+- (void) handleContainerChanged{
+  NSLog(@"container changed");
+  [self.collectionView reloadData];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

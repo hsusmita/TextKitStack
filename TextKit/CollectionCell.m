@@ -41,6 +41,7 @@
                      textContainer:[[TextModel sharedModel] selectedContainer]
    ];
   [self addSubview:self.textView];
+  [self.textView setScrollEnabled : NO];
 //  NSLog(@"container = %@ %@",self.textView.textContainer,[[TextModel sharedModel] selectedContainer]);
   [self.textView setBackgroundColor:[UIColor cyanColor]];
 
