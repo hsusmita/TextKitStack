@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6995DAC7178536A70025BC07"
-               BuildableName = "TextKitDemo.app"
-               BlueprintName = "TextKitDemo"
-               ReferencedContainer = "container:TextKitDemo.xcodeproj">
+               BlueprintIdentifier = "696BC14D1856F87300201FBC"
+               BuildableName = "TextKit.app"
+               BlueprintName = "TextKit"
+               ReferencedContainer = "container:TextKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6995DAE8178536A80025BC07"
-               BuildableName = "TextKitDemoTests.xctest"
-               BlueprintName = "TextKitDemoTests"
-               ReferencedContainer = "container:TextKitDemo.xcodeproj">
+               BlueprintIdentifier = "696BC16E1856F87400201FBC"
+               BuildableName = "TextKitTests.xctest"
+               BlueprintName = "TextKitTests"
+               ReferencedContainer = "container:TextKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6995DAC7178536A70025BC07"
-            BuildableName = "TextKitDemo.app"
-            BlueprintName = "TextKitDemo"
-            ReferencedContainer = "container:TextKitDemo.xcodeproj">
+            BlueprintIdentifier = "696BC14D1856F87300201FBC"
+            BuildableName = "TextKit.app"
+            BlueprintName = "TextKit"
+            ReferencedContainer = "container:TextKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6995DAC7178536A70025BC07"
-            BuildableName = "TextKitDemo.app"
-            BlueprintName = "TextKitDemo"
-            ReferencedContainer = "container:TextKitDemo.xcodeproj">
+            BlueprintIdentifier = "696BC14D1856F87300201FBC"
+            BuildableName = "TextKit.app"
+            BlueprintName = "TextKit"
+            ReferencedContainer = "container:TextKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6995DAC7178536A70025BC07"
-            BuildableName = "TextKitDemo.app"
-            BlueprintName = "TextKitDemo"
-            ReferencedContainer = "container:TextKitDemo.xcodeproj">
+            BlueprintIdentifier = "696BC14D1856F87300201FBC"
+            BuildableName = "TextKit.app"
+            BlueprintName = "TextKit"
+            ReferencedContainer = "container:TextKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

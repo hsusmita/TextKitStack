@@ -1,8 +1,8 @@
 //
 //  main.m
-//  TextKitDemo
+//  TextKit
 //
-//  Created by sah-fueled on 04/07/13.
+//  Created by sah-fueled on 10/12/13.
 //  Copyright (c) 2013 fueled.co. All rights reserved.
 //
 
