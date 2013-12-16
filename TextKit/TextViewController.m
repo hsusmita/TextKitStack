@@ -30,15 +30,17 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleContainerChanged) name:CONTAINER_COUNT_CHANGED_NOTIFICATION object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                           selector:@selector(handleContainerChanged)
+                                               name:CONTAINER_COUNT_CHANGED_NOTIFICATION
+                                             object:nil];
 }
 
 - (void) handleContainerChanged{
-  NSLog(@"container changed");
-  [self.collectionView reloadData];
+    NSLog(@"container changed");
+    [self.collectionView reloadData];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -50,7 +52,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView
      numberOfItemsInSection:(NSInteger)section{
-  return [TextModel sharedModel].containerCount;
+    return [TextModel sharedModel].containerCount;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
@@ -59,7 +61,6 @@
   CollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCollectionCell
                                             forIndexPath:indexPath];
   [cell update];
-  
   return cell;
 }
 

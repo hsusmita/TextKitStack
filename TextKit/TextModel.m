@@ -95,6 +95,7 @@ static TextModel *sharedTextModel = nil;
 //  NSLog(@"chracter = %c",[self.layoutManager characterIndexForGlyphAtIndex:glyphIndex]);
   return 5.0;
 }
+
 //- (NSControlCharacterAction)layoutManager:(NSLayoutManager *)layoutManager shouldUseAction:(NSControlCharacterAction)action forControlCharacterAtIndex:(NSUInteger)charIndex{
 //  
 //  if(charIndex == 92){
@@ -112,7 +113,7 @@ static TextModel *sharedTextModel = nil;
     NSTextContainer *container = [[NSTextContainer alloc]initWithSize:self.sizeOfContainer];
     [self.layoutManager addTextContainer:container];
     [[NSNotificationCenter defaultCenter] postNotificationName:CONTAINER_COUNT_CHANGED_NOTIFICATION object:nil];
-
+ 
   }
 
 }
