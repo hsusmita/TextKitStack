@@ -15,6 +15,9 @@
 		69CCC8DD1B958EDE00D4EB9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CCC8D71B958EDE00D4EB9A /* Images.xcassets */; };
 		69CCC8DE1B958EDE00D4EB9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CCC8D91B958EDE00D4EB9A /* ViewController.m */; };
 		69CCC8E51B958FE000D4EB9A /* TextKitStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CCC8E41B958FE000D4EB9A /* TextKitStack.m */; };
+		69FB6B601B9D99030050BEC3 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB6B5F1B9D99030050BEC3 /* CustomLabel.m */; };
+		69FB6B641B9DA09A0050BEC3 /* CustomLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB6B631B9DA09A0050BEC3 /* CustomLayoutManager.m */; };
+		69FB6B671B9DAEC70050BEC3 /* TouchSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB6B661B9DAEC70050BEC3 /* TouchSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		69CCC8D91B958EDE00D4EB9A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		69CCC8E31B958FE000D4EB9A /* TextKitStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextKitStack.h; path = Source/TextKitStack.h; sourceTree = "<group>"; };
 		69CCC8E41B958FE000D4EB9A /* TextKitStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextKitStack.m; path = Source/TextKitStack.m; sourceTree = "<group>"; };
+		69FB6B5E1B9D99030050BEC3 /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		69FB6B5F1B9D99030050BEC3 /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		69FB6B621B9DA0880050BEC3 /* CustomLayoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLayoutManager.h; sourceTree = "<group>"; };
+		69FB6B631B9DA09A0050BEC3 /* CustomLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutManager.m; sourceTree = "<group>"; };
+		69FB6B651B9DAEC70050BEC3 /* TouchSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchSession.h; path = Source/TouchSession.h; sourceTree = "<group>"; };
+		69FB6B661B9DAEC70050BEC3 /* TouchSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchSession.m; path = Source/TouchSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +136,8 @@
 				69CCC8D71B958EDE00D4EB9A /* Images.xcassets */,
 				69CCC8D81B958EDE00D4EB9A /* ViewController.h */,
 				69CCC8D91B958EDE00D4EB9A /* ViewController.m */,
+				69FB6B5E1B9D99030050BEC3 /* CustomLabel.h */,
+				69FB6B5F1B9D99030050BEC3 /* CustomLabel.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -136,6 +147,10 @@
 			children = (
 				69CCC8E31B958FE000D4EB9A /* TextKitStack.h */,
 				69CCC8E41B958FE000D4EB9A /* TextKitStack.m */,
+				69FB6B621B9DA0880050BEC3 /* CustomLayoutManager.h */,
+				69FB6B631B9DA09A0050BEC3 /* CustomLayoutManager.m */,
+				69FB6B651B9DAEC70050BEC3 /* TouchSession.h */,
+				69FB6B661B9DAEC70050BEC3 /* TouchSession.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -240,10 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FB6B671B9DAEC70050BEC3 /* TouchSession.m in Sources */,
+				69FB6B641B9DA09A0050BEC3 /* CustomLayoutManager.m in Sources */,
 				69CCC8E51B958FE000D4EB9A /* TextKitStack.m in Sources */,
 				69CCC8DE1B958EDE00D4EB9A /* ViewController.m in Sources */,
 				69CCC8DA1B958EDE00D4EB9A /* AppDelegate.m in Sources */,
 				69CCC8831B958BEA00D4EB9A /* main.m in Sources */,
+				69FB6B601B9D99030050BEC3 /* CustomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
